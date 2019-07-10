@@ -34,13 +34,27 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+    Responsive websites respond to the size of the browser at any given point. No matter what the browser width may be, the site adjusts its layout (and perhaps functionality) in a way that is optimized to the screen.
+
+    Adaptive websites adapt to the width of the browser at a specific points. In other words, the website is only concerned about the browser being a specific width, at which point it adapts the layout.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+    scribes which viewport the site was initial designed for.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+    It converts the font measurement multiplier from the standard 16pts to a more manageable multiplier of 10.
+    For example, with `font-size: 100%` you would display the font size `16 pt` as `1 rem`, but calculating other font sizes, such as `18 pt`, are not intuitive.
+    Whereas, `font-size: 62.5%` would display the font size `16 pt` as `1.6 rem`. Now, calculating for `18 pt` gives you `1.8 rem`, this is much more intuitive as it is a multipler of 10.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+    Preprocessing can make CSS code more organized. By using a preprocessor's powerful tools `(e.g. variable, function, mixin, nesting selector, inheritance selector, etc.)` lines can be shaved off CSS code and that means more readable code. This means that maintaining code will also be easier and in the long run it will be easier to edit.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+    Mixins are pretty cool. I think I have the greatest potential to make mistakes with inheritance selectors.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
